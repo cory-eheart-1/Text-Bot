@@ -1,0 +1,36 @@
+html {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#call_and_response {
+    height: 800px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message_bar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user_input {
+    width: 80%;
+    height: 20px;
+}
+
+#send {
+    width: 10%;
+    height: 27px;
+}
+
+#message_box {
+    width: 70%;
+}
